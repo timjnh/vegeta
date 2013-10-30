@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	vegeta "github.com/tsenart/vegeta/lib"
+	vegeta "github.com/timjnh/vegeta/lib"
 	"log"
 	"time"
 )

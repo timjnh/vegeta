@@ -4,7 +4,7 @@ import (
 	"flag"
 	"io/ioutil"
 	"log"
-	vegeta "github.com/tsenart/vegeta/lib"
+	vegeta "github.com/timjnh/vegeta/lib"
 	"strings"
 	"testing"
 	"time"
