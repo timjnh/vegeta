@@ -3,6 +3,10 @@
 *.a
 *.so
 
+# Temp files
+*~
+*.vr
+
 # Folders
 _obj
 _test
@@ -24,5 +28,6 @@ _testmain.go
 vegeta
 vegeta.test
 targets.txt
+targets.*.txt
 vegeta-*.tar.gz
 lib/lib.test
