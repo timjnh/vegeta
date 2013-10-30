@@ -7,18 +7,13 @@ It can be used both as a command line utility and a library.
 ![Vegeta](http://fc09.deviantart.net/fs49/i/2009/198/c/c/ssj2_vegeta_by_trunks24.jpg)
 
 ## Install
-### Pre-compiled executables
-* [Mac OSX 64 bit](https://dl.dropboxusercontent.com/u/83217940/vegeta-darwin-amd64-a9657e2.tar.gz)
-* [Mac OSX 32 bit](https://dl.dropboxusercontent.com/u/83217940/vegeta-darwin-386-a9657e2.tar.gz)
-* [Linux 64 bit](https://dl.dropboxusercontent.com/u/83217940/vegeta-linux-amd64-a9657e2.tar.gz)
-* [Linux 32 bit](https://dl.dropboxusercontent.com/u/83217940/vegeta-linux-386-a9657e2.tar.gz)
 
 ### Source
 You need go installed and `GOBIN` in your `PATH`. Once that is done, run the
 command:
 ```shell
-$ go get github.com/tsenart/vegeta
-$ go install github.com/tsenart/vegeta
+$ go get github.com/timjnh/vegeta
+$ go install github.com/timjnh/vegeta
 ```
 
 ## Usage examples
@@ -178,7 +173,7 @@ to change the moving average window size (in data points).
 package main
 
 import (
-  vegeta "github.com/tsenart/vegeta/lib"
+  vegeta "github.com/timjnh/vegeta/lib"
   "time"
   "fmt"
 )
